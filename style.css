@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.logo {
+  background: black;
+  height: 100%;
+}
+
+.nav {
+  height: 100%;
+  background-color: #ffff00;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links a li {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.content {
+  background-color: #555555;
+  height: 100%;
+}
+
+.content h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  padding: 30px 0 50px 0;
+  font-weight: 300;
+}
+
+.season {
+  display: flex;
+}
+
+.season8,
+.season7 {
+  flex-basis: 100%;
+  text-align: center;
+  color: white;
+}
+
+.season-img {
+  height: auto;
+  max-width: 650px;
+}
+
+.img-1:hover {
+  content: url("assets/images/hover1.jpg");
+}
+
+.img-2:hover {
+  content: url("assets/images/hover2.jpg");
+}
+
+.description {
+  padding: 0 200px 50px 200px;
+}
+
+.description p {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.footer {
+  height: 100%;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.socials {
+  display: flex;
+}
+
+.social-icon {
+  width: 50px;
+  height: auto;
+  margin-left: 20px;
+  object-fit: cover;
+}
+
+/* FORM STYLING */
+
+.form {
+  margin-top: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.form h6 {
+  font-size: 1rem;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
